@@ -6,7 +6,6 @@
 crash.log
 
 # Ignore Terraform variables files
-*.tfvars
 PBL/.terraform/
 # Ignore override files
 override.tf
