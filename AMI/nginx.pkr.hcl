@@ -12,7 +12,6 @@ locals { timestamp = regex_replace(timestamp(), "[- TZ:]", "") }
 source "amazon-ebs" "terraform-nginx-prj-19" {
   ami_name      = "terraform-nginx-prj-19-${local.timestamp}"
   instance_type = "t2.micro"
-  vpc_id        = "vpc-0595e93368d1b319d"
   region        = var.region
   source_ami_filter {
     filters = {
