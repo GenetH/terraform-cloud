@@ -16,6 +16,6 @@ override.tf.json
 
 # Ignore .terraform directory
 .terraform/
-
+*.tfstate.backup
 # Ignore .terraform.lock.hcl file
 .terraform.lock.hcl
