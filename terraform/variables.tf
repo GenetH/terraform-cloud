@@ -1,6 +1,6 @@
 variable "region" {
   type = string
-  description = "The region to deploy resources"
+  description = "The region to deploy resource"
 }
 
 variable "vpc_cidr" {
